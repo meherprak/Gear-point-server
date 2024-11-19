@@ -5,7 +5,8 @@ const port = 3000;
 
 // Middleware
 const cors = require('cors');
-app.use(cors({ origin: 'https://gear-point-frontend.vercel.app/' })); // Allow requests from your frontend
+app.use(cors({ origin: 'https://gear-point-frontend.vercel.app' }));
+ // Allow requests from your frontend
  // Enable CORS for all origins (or restrict as necessary)
 app.use(express.json()); // To parse JSON request bodies
 
